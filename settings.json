@@ -103,5 +103,8 @@
   "prettier.singleQuote": true,
   "prettier.resolveGlobalModules": true,
   "eslint.enable": true,
-  "emmet.showAbbreviationSuggestions": false
+  "emmet.showAbbreviationSuggestions": false,
+  "bracket-pair-colorizer-2.depreciation-notice": false,
+  "aws.telemetry": false,
+  "telemetry.telemetryLevel": "off"
 }
