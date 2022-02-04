@@ -1,0 +1,107 @@
+{
+  "terminal.integrated.shell.osx": "/bin/bash",
+  "terminal.integrated.shell.osx": "/bin/zsh",
+  "explorer.confirmDragAndDrop": false,
+  "explorer.openEditors.visible": 0,
+  "workbench.startupEditor": "newUntitledFile",
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.statusBar.visible": false,
+  "workbench.colorTheme": "★★★★★ NORD DARK ★★★★★",
+  "workbench.colorCustomizations": {
+    "activityBarBadge.background": "#AB47BC",
+    "activityBar.activeBorder": "#AB47BC",
+    "list.activeSelectionForeground": "#AB47BC",
+    "list.inactiveSelectionForeground": "#AB47BC",
+    "list.highlightForeground": "#AB47BC",
+    "scrollbarSlider.activeBackground": "#AB47BC50",
+    "editorSuggestWidget.highlightForeground": "#AB47BC",
+    "textLink.foreground": "#AB47BC",
+    "progressBar.background": "#AB47BC",
+    "pickerGroup.foreground": "#AB47BC",
+    "tab.activeBorder": "#AB47BC",
+    "notificationLink.foreground": "#AB47BC",
+    "editorWidget.resizeBorder": "#AB47BC",
+    "editorWidget.border": "#AB47BC",
+    "settings.modifiedItemIndicator": "#AB47BC",
+    "settings.headerForeground": "#AB47BC",
+    "panelTitle.activeBorder": "#AB47BC",
+    "breadcrumb.activeSelectionForeground": "#AB47BC",
+    "menu.selectionForeground": "#AB47BC",
+    "menubar.selectionForeground": "#AB47BC",
+    "editor.findMatchBorder": "#AB47BC",
+    "selection.background": "#AB47BC40",
+    "statusBarItem.remoteBackground": "#AB47BC"
+  },
+  "terminal.integrated.fontFamily": "Fira Code",
+  "editor.codeLensFontFamily": "Dank Mono Bold",
+  "debug.console.fontFamily": "Fira Code",
+  "scm.inputFontFamily": "Fira Code",
+  "window.autoDetectColorScheme": true,
+  "window.zoomLevel": 0,
+  "terminal.integrated.fontSize": 16,
+  "markdown.preview.fontSize": 24,
+  "editor.snippetSuggestions": "top",
+  "editor.multiCursorModifier": "ctrlCmd",
+  "editor.formatOnPaste": false,
+  "editor.lineHeight": 0,
+  "editor.fontSize": 16,
+  "editor.tabSize": 2,
+  "editor.detectIndentation": true,
+  "editor.minimap.enabled": false,
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "scope": ["comment", "comment.block"],
+        "settings": {
+          "fontStyle": "italic",
+          "foreground": "#4e4b64"
+        }
+      },
+      {
+        "scope": [
+          "keyword.operator.logical",
+          "keyword.operator.arithmetic",
+          "keyword.operator.assignment",
+          "keyword.operator.bitwise"
+        ],
+        "settings": {
+          "fontStyle": ""
+        }
+      }
+    ]
+  },
+  "editor.autoIndent": false,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnType": true,
+  "editor.suggestSelection": "first",
+  "editor.fontFamily": "Dank Mono",
+  "editor.fontWeight": "bold",
+  "editor.fontLigatures": true,
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "editor.formatOnSave": true,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "files.watcherExclude": {
+    "**/.git/objects/**": true,
+    "**/node_modules/**": true
+  },
+  "files.autoSave": "off",
+  "git.ignoreMissingGitWarning": true,
+  "css.lint.hexColorLength": "warning",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "json.schemas": [],
+  "aws.samcli.location": "/usr/local/bin/sam",
+  "aws.profile": "profile:default",
+  "aws.onDefaultRegionMissing": "add",
+  "prettier.singleQuote": true,
+  "prettier.resolveGlobalModules": true,
+  "eslint.enable": true,
+  "emmet.showAbbreviationSuggestions": false
+}
